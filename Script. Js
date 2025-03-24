@@ -1,19 +1,2 @@
-// Display an alert when the page loads
-alert("Hello, welcome to my website!");
 
-// Log a message to the console
-console.log("This is a message in the console.");
 
-// Function to change text when a button is clicked
-function changeText() {
-    document.getElementById("demo").innerHTML = "Text changed!";
-}
-
-// Function to add two numbers
-function addNumbers(a, b) {
-    return a + b;
-}
-
-// Example usage
-let result = addNumbers(5, 10);
-console.log("The sum is: " + result);
